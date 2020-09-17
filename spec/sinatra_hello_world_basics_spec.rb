@@ -1,7 +1,6 @@
 describe "GET '/'" do
   before do
-    get '/' do
-      
+    get '/'
   end
 
   it "responds with a 200 status code" do
